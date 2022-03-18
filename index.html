@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Save our planet : Responsive Web Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <Nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+        <!-- move the navbar brand to a container so that it will not right up against the edge -->
+        <div class="container">
+            <a href="#" class="navbar-brand"> <img src="asset/logo_3.png" alt=""></a>
+            <!-- adding hamburger button the navbar -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <!-- add ms-auto to make the menu align right -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#contribute" class="nav-link"> What You'll Contribute</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#aboutUs" class="nav-link">About Us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#FAQ" class="nav-link"> FAQ </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </Nav>
+    <!-- SHOWCASE -->
+    <section class="bg-light text-dark p-5 pb-lg-0 text-center text-sm-start">
+        <div class="container mt-4">
+            <!-- flexbox here (contains 2 items: text & image) -->
+            <div class="d-flex align-items-center justify-content-between">
+                <div>
+                    <h1> Save the <span class="text-success">Planet</span></h1>
+                    <p class="lead my-4">Sudahkah kita sadar untuk menyelamatkan bumi kita? <br>
+                        Tak bisa dipungkiri, aktivitas manusia perlahan merusak alam dan lingkungan. <br>
+                        Manusia memanfaatkan sumber daya alam dan mengolahnya, namun bukan tanpa efek samping. <br>
+                        Semua manfaat teknologi yang kita rasakan saat ini merupakan pengembangan yang memiliki
+                        environmental cost. <br>
+                        Polusi air dan udara, pemanasan global, smog, hujan asam, deforestasi hutan, dan
+                        kebakaran hutan merupakan satu dari segelintir masalah lingkungan yang kita hadapi.
+                    </p>
+                    <button class="btn btn-success btn-lg">Start to Contribute!</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="asset/resize_earth.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- NEWSLETTER -->
+    <section class="bg-success text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">
+                    Sign up for our newsleter
+                </h3>
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter email">
+                    <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BOXES -->
+    <section class="p-5">
+        <div class="container">
+            <h2 class="text-center">Berita Utama</h2>
+            <div class="row g-4 text-center">
+                <div class="col-md">
+                    <!-- CARDS -->
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <img src="asset/antartics_4.jpg" class="rounded-circle mb-3" alt="">
+                            <h4 class="card-title mb-3">
+                                Laut Antartika Mencapai Nilai Minimum Terendah
+                            </h4>
+                            <p class="card-text">
+                                Laut Antartika menyusut hingga di bawah 2 juta kilometer persegi tahun ini, tingkat
+                                minimum terendah sejak pencatatan satelit yang dimulai 43 tahun lalu.
+                                <br><br>
+                            </p>
+                            <a href="https://www.nature.com/articles/d41586-022-00550-4" class="btn btn-success">
+                                Read more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <img src="asset/globalwarming_4.jpeg" class="rounded-circle mb-3" alt="">
+                            <h4 class="card-title mb-3">
+                                Kurangi Limbah Fashion, Ini 5 Resolusi untuk Terapkan Gaya Hidup Sustainable di Tahun
+                                2022!
+                            </h4>
+                            <p class="card-text">
+                                Gerakan ini sering disebut juga sebagai ethical fashion yang bertujuan untuk mengurangi
+                                dampak dari industri fast fashion.
+                                Lalu, bagaimana caranya mengurangi limbah tren fast fashion?
+
+                            </p>
+                            <a href="https://journal.sociolla.com/lifestyle/resolusi-gaya-hidup-sustainable-fashion"
+                                class="btn btn-success">
+                                Read more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <!-- <div class="h1 mb-3">
+                               <i class="bi bi-laptop"></i>
+                            </div> -->
+                            <img src="asset/forest_5.jpg" class="rounded-circle mb-3" alt="">
+                            <h4 class="card-title mb-3">
+                                Penjaga Hutan Adat Khawatir dengan Ekspansi Sawit
+                            </h4>
+                            <p class="card-text">
+                                Hutan Adat Pikul ada di Desa Sahan, Kecamatan Seluas, Kabupaten Bengkayang, Kalimantan
+                                Barat.
+                                Luasnya 100 hektare, ditetapkan sebagai hutan adat oleh KLHK pada 2018.
+                            </p>
+                            <a href="https://www.google.com/search?q=kuis+hari+bumi&sxsrf=APq-WBs1hhIBBT83JS92S5niP7bw32tWkA%3A1647391339146&ei=azIxYsDACI3Yz7sP9pWN8AI&ved=0ahUKEwiAos38ssn2AhUN7HMBHfZKAy4Q4dUDCA0&uact=5&oq=kuis+hari+bumi&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABKBAhGGABQAFgAYKQCaAFwAXgAgAEAiAEAkgEAmAEAyAEIwAEB&sclient=gws-wiz"
+                                class="btn btn-success">
+                                Read more.
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Image & Text -->
+    <section id="why" class="p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <img src="asset/ima_ge_16.jpg" class="image-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Mengapa kita harus berkontribusi dalam gerakan <span class="text-success"> 'Penyelamatan
+                            Bumi'?</span></h2>
+                    <p class="lead">
+                        Hampir setiap hari kita mendengar tentang kabar buruk yang menghantui Bumi.
+                        Mulai dari mencairnya es di Kutub, lautan yang penuh sampah, hingga spesies terancam punah.
+                        Ini semua tidak lepas dari faktor perubahan iklim serta pemanasan global yang semakin parah.
+                    </p>
+                    <p>
+                        <span class="text-success">'Menyelamatkan Bumi'</span>
+                        terdengar sangat berat,
+                        padahal kita bisa menjaganya dengan melakukan hal-hal sederhana
+                        yang bisa dilakukan dalam kehidupan sehari-hari.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ACCORDION -->
+    <section id="contribute" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                Hal-hal yang dapat kita lakukan untuk menyelamatkan <span class="text-success"> Bumi</span> kita
+            </h2>
+            <div class="accordion accordion-flush" id="contribute">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#contribute-one">
+                            Reduce, Reuse, and Recycle
+                        </button>
+                    </h2>
+                    <div id="contribute-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#contribute">
+                        <div class="accordion-body">Beberapa jenis sampah--seperti botol minuman dan kardus--dapat kamu
+                            recycle. <br>
+                            Kreasikan sampah tersebut menjadi hiasan atau barang lain yang dibutuhkan di rumah sehingga
+                            mengurangi jumlahnya di lingkungan. </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#contribute-two">
+                            Bergabung dengan Komunitas Peduli Lingkungan
+                        </button>
+                    </h2>
+                    <div id="contribute-two" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#contribute">
+                        <div class="accordion-body"> Anda bisa bergabung dengan komunitas peduli lingkungan kemudian
+                            berkolaborasi dengan banyak orang untuk menjaga Bumi. <br>
+                            Biasanya, mereka akan memikirkan gagasan serta melakukan aksi yang berdampak pada
+                            keberlangsungan hidup Bumi dan makhluk yang berada di dalamnya.</div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#contribute-three">
+                            Tidak Membuang Sampah Sembarangan
+                        </button>
+                    </h2>
+                    <div id="contribute-three" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        data-bs-parent="#contribute">
+                        <div class="accordion-body">Membuang sampah tidak pada tempatnya akan mengotori lingkungan dan
+                            berdampak pada ekosistem di sekitarnya. <br>
+                            Selain itu, sampah yang tercecer--terutama yang sulit terurai--pada akhirnya akan terbawa ke
+                            lautan dan membahayakan hewan-hewan di sana.<br>
+                            Mereka akan mengonsumsinya karena mengira itu makanannya. Hal ini dapat membuat banyak hewan
+                            laut mati akibat terjerat sampah, terutama plastik. </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#contribute-four">
+                            Beli Produk Lokal
+                        </button>
+                    </h2>
+                    <div id="contribute-four" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        data-bs-parent="#contribute">
+                        <div class="accordion-body">Jika memungkinkan, beli produk lokal. Dengan begitu, polusi
+                            kendaraan yang mengirim barang dari jarak jauh, bisa berkurang. <br>
+                            Pastikan juga Anda membeli produk dengan bahan-bahan ramah lingkungan. </div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#contribute-five">
+                            Membeli Barang Preloved / Secondhand
+                        </button>
+                    </h2>
+                    <div id="contribute-five" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        data-bs-parent="#contribute">
+                        <div class="accordion-body">Banyak barang bisa digunakan kembali dengan fungsi yang masih sama.
+                            <br>
+                            Hal-hal yang memiliki manfaat penggunaan dalam waktu singkat akibat pertumbuhan,
+                            misalnya baju atau sepeda anak-anak, bisa didapatkan dari tangan kedua tanpa perlu membeli
+                            yang baru.
+                            Membeli barang bekas pakai atau secondhand dapat mengurangi jumlah dan kegiatan produksi,
+                            juga menghemat uang Anda. </div>
+                    </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#contribute-six">
+                            Menanam Pohon
+                        </button>
+                    </h2>
+                    <div id="contribute-six" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        data-bs-parent="#contribute">
+                        <div class="accordion-body">Pohon menyediakan oksigen bagi makhluk hidup. Ia juga dapat membanti
+                            menyimpan energi,
+                            membersihkan air, dan membantu melawan perubahan iklim. </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MERCH -->
+    <section id="merch" class="p-5 bg-success">
+        <div class="container">
+            <h2 class="text-center text-light">Merchandise Kami</h2>
+            <p class="lead text-center text-light">
+                Dengan membeli merchandise kami, kamu turut berkontribusi untuk pelestarian laut & hutan Indonesia!
+            </p>
+            <div class="row g-4">
+                <!-- in medium screen want to split into 2 cols; so it's 6 -->
+                <!-- in large screen want to split into 4 cols ; so it's 3 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="asset/merch1.jpeg" class="image-fluid mb-3" alt="">
+                            <h5 class="card-title mb-3 text-success">Aqua Tumblr</h5>
+                            <p class="card-text text-secondary">Tumblr keren agar kamu selalu ingat misi kita
+                                untuk selalu menjaga lingkungan dengan mengurangi gelas plastik.</p>
+                            <button class="btn btn-success btn-md" 
+                            data-bs-toggle="modal" 
+                            data-bs-target="#buy">Buy</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="asset/merch_2.jpeg" class="image-fluid mb-3" alt="">
+                            <h5 class="card-title mb-3 text-success">Oceania Bracelet</h5>
+                            <p class="card-text text-secondary">Gelang cantik, dibuat oleh para pengrajin di flores!
+                                <br> <i>[Limited edition]</i> <br><br>
+                            </p>
+                            <button class="btn btn-success btn-md">Buy</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="asset/merch3.jpeg" class="image-fluid mb-3" alt="">
+                            <h5 class="card-title mb-3 text-success">Sea T-shirt</h5>
+                            <p class="card-text text-secondary">T-shirt nyaman dengan ilustrasi gemas,
+                                untuk turut berkampanye soal "Save our Planet"! <br><br></p>
+                            <button class="btn btn-success btn-md">Buy</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="asset/merch4.jpeg" class="image-fluid mb-3" alt="">
+                            <h5 class="card-title mb-3 text-success">Drawstring Bag</h5>
+                            <p class="card-text text-secondary">Drawstring bag multi fungsi dengan pesan untuk
+                                turut berkampanye mengurangi sampah plastik. <br></p>
+                            <button class="btn btn-success btn-md">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer id="contact" class="p-5 bg-light">
+    <div class="container">
+        <h4 class="text-center text-dark">Follow kami di social media:</h4>
+        <div class="row d-flex justify-content-center text-center g-2 mt-3">
+            <div class="col-sm">
+                <a href="https://www.instagram.com/generationgirl.id/?hl=en">
+                    <i class="bi bi-instagram text-success text-center"> generationgirl</i>
+                </a>
+            </div>
+            <div class="col-sm">
+                <a href="https://www.linkedin.com/company/yayasan-generasi-maju-berkarya?originalSubdomain=id">
+                    <i class="bi bi-linkedin text-success text-center"> Yayasan Generasi Maju Berkarya</i>
+                </a>
+            </div>
+            <div class="col-sm">
+                <a href="https://twitter.com/gengirlid">
+                    <i class="bi bi-twitter text-success text-center"> generationgirl</i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Modal -->
+<div class="modal fade" id="buy" tabindex="-1" aria-labelledby="buyLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="buyLabel">Checkout</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                  <label for="address" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="address">
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-warning">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
