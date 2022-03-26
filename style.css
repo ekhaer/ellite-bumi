@@ -4,11 +4,11 @@
     }
 }
 
-@media(min-width: 576px) {
+/* @media(min-width: 576px) {
     .whyImage {
         width: 20%;
     }
-}
+} */
 
 a {
     text-decoration :none
